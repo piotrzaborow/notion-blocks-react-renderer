@@ -1,6 +1,6 @@
 {
 	"name": "@piotrzaborow/notion-react-renderer",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "React Renderer for @notionhq/client blocks",
 	"main": "dist/index.js",
 	"repository": {
