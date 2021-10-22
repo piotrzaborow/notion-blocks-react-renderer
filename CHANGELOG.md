@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.2.0...v1.3.0) (2021-10-22)
+
+
+### Features
+
+* add default renderer for callout block ([b156f0e](https://github.com/piotrzaborow/notion-react-renderer/commit/b156f0e03fbb404845cfe7ed1b89b485f9d031b4))
+
 # [1.2.0](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.1.0...v1.2.0) (2021-10-22)
 
 
