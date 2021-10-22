@@ -12,6 +12,7 @@ const BLOCKS = {
 	CODE: "code",
 	AUDIO: "audio",
 	VIDEO: "video",
+	CALLOUT: "callout",
 }
 
 export default BLOCKS

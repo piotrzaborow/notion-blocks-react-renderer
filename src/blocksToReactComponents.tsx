@@ -31,6 +31,7 @@ const defaultRenderers: RenderNode = {
 	[BLOCKS.VIDEO]: (block) => (
 		<video controls preload='none' src={block.video.file.url} />
 	),
+	[BLOCKS.CALLOUT]: (block: IBlock) => <div>{blockToText(block)}</div>,
 }
 
 const blocksToReactComponents = (
