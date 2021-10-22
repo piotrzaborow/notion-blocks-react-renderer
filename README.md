@@ -13,6 +13,7 @@ npm install @piotrzaborow/notion-react-renderer
 ## How to use Notion React Renderer?
 
 ```
+
 import { blocksToReactComponents } from '@piotrzaborow/notion-react-renderer'
 
 const Component = () => {
