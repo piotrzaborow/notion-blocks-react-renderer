@@ -15,12 +15,14 @@ export interface IBlock {
 	numbered_list_item?: IBlockContent
 	quote?: IBlockContent
 	code?: IBlockContent
-	image?: IImage
+	image?: IAsset
+	audio?: IAsset
+	video?: IAsset
 	list?: Array<IBlock>
 	children?: Array<IBlock>
 }
 
-interface IImage {
+interface IAsset {
 	file: {
 		url: string
 	}

@@ -25,6 +25,12 @@ const defaultRenderers: RenderNode = {
 	),
 	[BLOCKS.CODE]: (block: IBlock) => <code>{blockToText(block)}</code>,
 	[BLOCKS.IMAGE]: (block: IBlock) => <img src={block.image.file.url} />,
+	[BLOCKS.AUDIO]: (block) => (
+		<audio controls preload='none' src={block.audio.file.url} />
+	),
+	[BLOCKS.VIDEO]: (block) => (
+		<video controls preload='none' src={block.video.file.url} />
+	),
 }
 
 const blocksToReactComponents = (

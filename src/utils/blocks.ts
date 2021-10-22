@@ -10,6 +10,8 @@ const BLOCKS = {
 	QUOTE: "quote",
 	IMAGE: "image",
 	CODE: "code",
+	AUDIO: "audio",
+	VIDEO: "video",
 }
 
 export default BLOCKS

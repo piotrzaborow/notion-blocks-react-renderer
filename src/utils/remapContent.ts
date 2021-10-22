@@ -4,6 +4,7 @@ const remapContent = (content: Array<IBlock>) => {
 	let result: Array<IBlock> = []
 	const isNumberedListItem = (block: IBlock) =>
 		block.type === "numbered_list_item"
+
 	const isBulletedListItem = (block: IBlock) =>
 		block.type === "bulleted_list_item"
 
@@ -29,8 +30,9 @@ const remapContent = (content: Array<IBlock>) => {
 		return bulleted.flat()
 	}
 
-	for (let index = 0; index < content.length - 1; index++) {
+	for (let index = 0; index < content.length; index++) {
 		const block = content[index]
+
 		if (!isBulletedListItem(block) && !isNumberedListItem(block)) {
 			result.push(block)
 		}
