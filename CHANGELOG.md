@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.1.0...v1.2.0) (2021-10-22)
+
+
+### Features
+
+* add default renderers for audio and video ([f9d2b78](https://github.com/piotrzaborow/notion-react-renderer/commit/f9d2b78a0f5ce7afdd80ac2d597643ce0ca924ff))
+
 # [1.1.0](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.0.0...v1.1.0) (2021-10-22)
 
 
