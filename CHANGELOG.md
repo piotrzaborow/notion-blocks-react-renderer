@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.3.0...v1.3.1) (2021-10-22)
+
+
+### Bug Fixes
+
+* fix CI ([1a8efdc](https://github.com/piotrzaborow/notion-react-renderer/commit/1a8efdc84419363fa979a84cf6a830589df18f3b))
+
 # [1.3.0](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.2.0...v1.3.0) (2021-10-22)
 
 
