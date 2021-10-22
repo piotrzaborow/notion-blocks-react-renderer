@@ -1,10 +1,5 @@
 name: Publish Package to Github Packages
 
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   publish:
     runs-on: ubuntu-latest
