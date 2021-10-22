@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.0.0...v1.1.0) (2021-10-22)
+
+
+### Features
+
+* added options for bulleted list, numbered list, images and codes ([38f3d07](https://github.com/piotrzaborow/notion-react-renderer/commit/38f3d07d7c4a375b64ea72ec13ac67073e719565))
+
 # 1.0.0 (2021-07-20)
 
 
