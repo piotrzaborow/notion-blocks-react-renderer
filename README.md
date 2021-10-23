@@ -2,19 +2,17 @@
 
 React Renderer for @notionhq/client blocks
 
-[![Publish Package](https://github.com/piotrzaborow/notion-react-renderer/actions/workflows/npm-publish.yml/badge.svg?branch=main)](https://github.com/piotrzaborow/notion-react-renderer/actions/workflows/npm-publish.yml)
-
 ## How to install?
 
 ```
-npm install @piotrzaborow/notion-react-renderer
+npm install notion-blocks-react-renderer
 ```
 
 ## How to use Notion React Renderer?
 
 ```
 
-import { blocksToReactComponents } from '@piotrzaborow/notion-react-renderer'
+import { blocksToReactComponents } from 'notion-blocks-react-renderer'
 
 const Component = () => {
     const [blocks, setBlocks] = useState([])
@@ -31,7 +29,7 @@ const Component = () => {
 You can add your own renderers (Components) for Notion Blocks by creating new object and passing it to `blocksToReactComponents` function as a second parameter:
 
 ```
-import { blockToText, blocksToReactComponents, BLOCKS, blockRenderer } from '@piotrzaborow/notion-react-renderer'
+import { blockToText, blocksToReactComponents, BLOCKS, blockRenderer } from 'notion-blocks-react-renderer'
 
 const renderers = {
     [BLOCKS.PARAGRAPH]: (block) => <p>{ blockToText(block) }</p>,
