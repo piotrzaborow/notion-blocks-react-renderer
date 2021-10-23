@@ -54,10 +54,6 @@ interface IAnnotation {
 	color: string
 }
 
-export interface IOptions {
-	renderers: RenderNode
-}
-
 export interface RenderNode {
 	[k: string]: NodeRenderer
 }
