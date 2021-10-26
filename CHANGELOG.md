@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.3...v1.3.4) (2021-10-26)
+
+
+### Bug Fixes
+
+* update documentation and packages ([a955e3e](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/a955e3efb9dcdeea4a8790a7b6057b5947ae2626))
+
 ## [1.3.3](https://github.com/piotrzaborow/notion-react-renderer/compare/v1.3.2...v1.3.3) (2021-10-25)
 
 
