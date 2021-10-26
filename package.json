@@ -5,7 +5,7 @@
 	"main": "dist/index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/piotrzaborow/notion-react-renderer.git"
+		"url": "https://github.com/piotrzaborow/notion-blocks-react-renderer.git"
 	},
 	"scripts": {
 		"commit": "cz",

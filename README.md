@@ -1,6 +1,6 @@
 # Notion-Blocks-React-Renderer
 
-React Renderer for @notionhq/client blocks
+React Renderer for [@notionhq/client](https://www.npmjs.com/package/@notionhq/client) blocks
 
 ## How to install?
 
@@ -8,7 +8,13 @@ React Renderer for @notionhq/client blocks
 npm install notion-blocks-react-renderer
 ```
 
-## How to use Notion React Renderer?
+or
+
+```
+yarn add notion-blocks-react-renderer
+```
+
+## How to use Notion Blocks React Renderer?
 
 ```
 
