@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.4...v1.3.5) (2021-10-26)
+
+
+### Bug Fixes
+
+* added keywords to package.json ([788304d](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/788304dcd30eb4c24f6fbec26f7b49944bf17363))
+
 ## [1.3.4](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.3...v1.3.4) (2021-10-26)
 
 
