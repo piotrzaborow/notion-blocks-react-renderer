@@ -7,6 +7,11 @@
 		"type": "git",
 		"url": "https://github.com/piotrzaborow/notion-blocks-react-renderer.git"
 	},
+	"keywords": [
+		"notion",
+		"notion react renderer",
+		"notion blocks"
+	],
 	"scripts": {
 		"commit": "cz",
 		"build": "tsc --module commonjs"
