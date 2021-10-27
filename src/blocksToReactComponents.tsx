@@ -40,9 +40,11 @@ const blocksToReactComponents = (
 ) => {
 	const remappedContent = remapContent(blockList)
 
-	return remappedContent.map((block: IBlock) => {
-		return blockRenderer(block, renderers)
-	})
+	return React.Children.toArray(
+		remappedContent.map((block: IBlock) => {
+			return blockRenderer(block, renderers)
+		})
+	)
 }
 
 export default blocksToReactComponents
