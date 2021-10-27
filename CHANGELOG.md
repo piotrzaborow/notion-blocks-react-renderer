@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.5...v1.3.6) (2021-10-27)
+
+
+### Bug Fixes
+
+* fix problems with React keys ([c6f64f6](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/c6f64f6034b2b656cb51abc48d3baa1db20153a6))
+
 ## [1.3.5](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.4...v1.3.5) (2021-10-26)
 
 
