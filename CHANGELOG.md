@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.6...v1.3.7) (2021-10-27)
+
+
+### Bug Fixes
+
+* delete space in TextRenderer ([ee56d0a](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/ee56d0afd7d4ef0eea062d8f6a0a89f694b72383))
+
 ## [1.3.6](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.5...v1.3.6) (2021-10-27)
 
 
