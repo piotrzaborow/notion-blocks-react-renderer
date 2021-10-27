@@ -7,7 +7,7 @@ const TextRenderer = (text: Array<IRichText>) => {
 			if (textItem.href) {
 				return <a href={textItem.href}>{textItem.text.content}</a>
 			} else {
-				return <span> {textItem.text.content}</span>
+				return <span>{textItem.text.content}</span>
 			}
 		})
 	)
