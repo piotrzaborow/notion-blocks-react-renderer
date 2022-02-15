@@ -1,61 +1,55 @@
 {
-	"name": "notion-blocks-react-renderer",
-	"version": "1.3.7",
-	"description": "React Renderer for @notionhq/client blocks",
-	"main": "dist/index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/piotrzaborow/notion-blocks-react-renderer.git"
-	},
-	"keywords": [
-		"notion",
-		"notion react renderer",
-		"notion blocks"
-	],
-	"scripts": {
-		"commit": "cz",
-		"build": "tsc --module commonjs"
-	},
-	"author": "Piotr Zaborowski <piotrzaborow@gmail.com>",
-	"license": "ISC",
-	"peerDependecies": {
-		"react": "^17.0.2"
-	},
-	"dependencies": {
-		"react": "^17.0.2"
-	},
-	"devDependencies": {
-		"@semantic-release/changelog": "^6.0.0",
-		"@semantic-release/git": "^10.0.0",
-		"@types/react": "^17.0.32",
-		"commitizen": "^4.2.4",
-		"cz-conventional-changelog": "^3.3.0",
-		"typescript": "^4.4.4"
-	},
-	"publishConfig": {
-		"registry": "https://registry.npmjs.org/"
-	},
-	"release": {
-		"branches": [
-			"main"
-		],
-		"plugins": [
-			"@semantic-release/commit-analyzer",
-			"@semantic-release/release-notes-generator",
-			"@semantic-release/changelog",
-			"@semantic-release/npm",
-			"@semantic-release/git",
-			[
-				"@semantic-release/github",
-				{
-					"message": "Release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>"
-				}
-			]
-		]
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+  "name": "notion-blocks-react-renderer",
+  "version": "1.3.7",
+  "description": "React Renderer for @notionhq/client blocks",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piotrzaborow/notion-blocks-react-renderer.git"
+  },
+  "keywords": ["notion", "notion react renderer", "notion blocks"],
+  "scripts": {
+    "commit": "cz",
+    "build": "tsc --module commonjs"
+  },
+  "author": "Piotr Zaborowski <piotrzaborow@gmail.com>",
+  "license": "ISC",
+  "peerDependecies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@types/react": "^17.0.39",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.5.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      [
+        "@semantic-release/github",
+        {
+          "message": "Release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>"
+        }
+      ]
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
