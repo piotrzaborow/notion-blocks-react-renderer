@@ -1,4 +1,4 @@
-# Notion-Blocks-React-Renderer
+# Notion Blocks React Renderer
 
 React Renderer for [@notionhq/client](https://www.npmjs.com/package/@notionhq/client) blocks
 
