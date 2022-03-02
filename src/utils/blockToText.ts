@@ -3,8 +3,6 @@ import TextRenderer from "./TextRenderer"
 import BLOCKS from "./blocks"
 
 const blockToText = (block: IBlock) => {
-	console.log(block.type)
-	console.log(block)
 	switch (block.type) {
 		case BLOCKS.PARAGRAPH:
 			return TextRenderer(block.paragraph.rich_text)
