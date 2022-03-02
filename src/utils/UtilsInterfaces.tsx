@@ -29,7 +29,7 @@ interface IAsset {
 }
 
 interface IBlockContent {
-	text: Array<IRichText>
+	rich_text: Array<IRichText>
 }
 
 export interface IRichText {
