@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.9...v1.3.10) (2022-03-02)
+
+
+### Bug Fixes
+
+* Remove unused console.logs ([a797cd3](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/a797cd321daedb8692388d0dd3efa43cbe7ea45a))
+
 ## [1.3.9](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.8...v1.3.9) (2022-03-02)
 
 
