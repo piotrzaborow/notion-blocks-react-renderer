@@ -1,3 +1,10 @@
+## [1.3.11](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.10...v1.3.11) (2022-03-22)
+
+
+### Bug Fixes
+
+* :heavy_minus_sign: Remove commitzen ([e3cc439](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/e3cc4395e9aadc6f5ee4432c0987a9993e0ad282))
+
 ## [1.3.10](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.9...v1.3.10) (2022-03-02)
 
 
