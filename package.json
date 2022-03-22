@@ -3,6 +3,12 @@
     "version": "1.3.11",
     "description": "React Renderer for @notionhq/client blocks",
     "main": "dist/index.js",
+    "url": "https://packages.zaborowski.dev/notion-blocks-react-renderer",
+    "author": "Piotr Zaborowski <piotrzaborow@gmail.com>",
+    "contributors": [
+        "Piotr Zaborowski <piotrzaborow@gmail.com>"
+    ],
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/piotrzaborow/notion-blocks-react-renderer.git"
@@ -16,8 +22,6 @@
         "commit": "cz",
         "build": "tsc --module commonjs"
     },
-    "author": "Piotr Zaborowski <piotrzaborow@gmail.com>",
-    "license": "MIT",
     "peerDependecies": {
         "react": "^17.0.2"
     },
