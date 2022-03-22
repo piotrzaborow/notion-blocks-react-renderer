@@ -17,7 +17,7 @@
     "build": "tsc --module commonjs"
   },
   "author": "Piotr Zaborowski <piotrzaborow@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependecies": {
     "react": "^17.0.2"
   },
