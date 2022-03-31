@@ -23,16 +23,16 @@
         "build": "tsc --module commonjs"
     },
     "peerDependecies": {
-        "react": "^17.0.2"
+        "react": "=<18.0.0"
     },
     "dependencies": {
-        "react": "^17.0.2"
+        "react": "latest"
     },
     "devDependencies": {
         "@semantic-release/changelog": "^6.0.1",
         "@semantic-release/git": "^10.0.1",
-        "@types/react": "^17.0.41",
-        "typescript": "^4.6.2"
+        "@types/react": "^17.0.43",
+        "typescript": "^4.6.3"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
