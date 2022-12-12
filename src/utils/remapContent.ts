@@ -1,67 +1,68 @@
-import { IBlock } from "./UtilsInterfaces"
+import { IBlock } from './UtilsInterfaces'
 
 const remapContent = (content: Array<IBlock>) => {
-	let result: Array<IBlock> = []
-	const isNumberedListItem = (block: IBlock) =>
-		block.type === "numbered_list_item"
+    let result: Array<IBlock> = []
 
-	const isBulletedListItem = (block: IBlock) =>
-		block.type === "bulleted_list_item"
+    const isNumberedListItem = (block: IBlock) =>
+        block?.type === 'numbered_list_item'
 
-	const createNumberedList = (index: number) => {
-		let numbered: Array<IBlock | IBlock[]> = []
+    const isBulletedListItem = (block: IBlock) =>
+        block?.type === 'bulleted_list_item'
 
-		numbered.push(content[index])
-		if (isNumberedListItem(content[index + 1])) {
-			numbered.push(createNumberedList(index + 1))
-		}
+    const createNumberedList = (index: number) => {
+        let numbered: Array<IBlock | IBlock[]> = []
 
-		return numbered.flat()
-	}
+        numbered.push(content[index])
+        if (isNumberedListItem(content[index + 1])) {
+            numbered.push(createNumberedList(index + 1))
+        }
 
-	const createBulletedList = (index: number) => {
-		let bulleted: Array<IBlock | IBlock[]> = []
+        return numbered.flat()
+    }
 
-		bulleted.push(content[index])
-		if (isBulletedListItem(content[index + 1])) {
-			bulleted.push(createBulletedList(index + 1))
-		}
+    const createBulletedList = (index: number) => {
+        let bulleted: Array<IBlock | IBlock[]> = []
 
-		return bulleted.flat()
-	}
+        bulleted.push(content[index])
+        if (isBulletedListItem(content[index + 1])) {
+            bulleted.push(createBulletedList(index + 1))
+        }
 
-	for (let index = 0; index < content.length; index++) {
-		const block = content[index]
+        return bulleted.flat()
+    }
 
-		if (!isBulletedListItem(block) && !isNumberedListItem(block)) {
-			result.push(block)
-		}
+    for (let index = 0; index < content.length; index++) {
+        const block = content[index]
 
-		if (isNumberedListItem(block)) {
-			const numbered = createNumberedList(index)
+        if (!isBulletedListItem(block) && !isNumberedListItem(block)) {
+            result.push(block)
+        }
 
-			result.push({
-				has_children: true,
-				type: "numbered_list",
-				list: numbered,
-			})
+        if (isNumberedListItem(block)) {
+            const numbered = createNumberedList(index)
 
-			index = index + numbered.length
-		}
+            result.push({
+                has_children: true,
+                type: 'numbered_list',
+                list: numbered,
+            })
 
-		if (isBulletedListItem(block)) {
-			let bulleted = createBulletedList(index)
+            index = index + numbered.length
+        }
 
-			result.push({
-				has_children: true,
-				type: "bulleted_list",
-				list: bulleted,
-			})
-			index = index + bulleted.length
-		}
-	}
+        if (isBulletedListItem(block)) {
+            let bulleted = createBulletedList(index)
 
-	return result
+            result.push({
+                has_children: true,
+                type: 'bulleted_list',
+                list: bulleted,
+            })
+            index = index + bulleted.length
+        }
+    }
+
+    return result
 }
 
 export default remapContent
