@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.11...v1.3.12) (2022-12-12)
+
+
+### Bug Fixes
+
+* update remapContent.ts ([b71497b](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/b71497b8bd0fd7ccb1a1586ce29f6d7c45644c02))
+
 ## [1.3.11](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.10...v1.3.11) (2022-03-22)
 
 
