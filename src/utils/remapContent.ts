@@ -34,11 +34,9 @@ const remapContent = (content: Array<IBlock>) => {
     for (let index = 0; index < content.length; index++) {
         const block = content[index]
 
-        if (!isBulletedListItem(block) && !isNumberedListItem(block)) {
+        if (!isBulletedListItem(block) || !isNumberedListItem(block)) {
             result.push(block)
-        }
-
-        if (isNumberedListItem(block)) {
+        } else if (isNumberedListItem(block)) {
             const numbered = createNumberedList(index)
 
             result.push({
@@ -48,9 +46,7 @@ const remapContent = (content: Array<IBlock>) => {
             })
 
             index = index + numbered.length
-        }
-
-        if (isBulletedListItem(block)) {
+        } else if (isBulletedListItem(block)) {
             let bulleted = createBulletedList(index)
 
             result.push({
