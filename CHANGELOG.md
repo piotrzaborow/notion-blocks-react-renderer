@@ -1,3 +1,10 @@
+## [1.3.13](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.12...v1.3.13) (2022-12-19)
+
+
+### Bug Fixes
+
+* remapContent has a correct truth table ([abca7f7](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/abca7f769aecf9cb9310ba01b669d5e6c6249bd3))
+
 ## [1.3.12](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.11...v1.3.12) (2022-12-12)
 
 
