@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.13...v1.4.0) (2023-01-30)
+
+
+### Bug Fixes
+
+* update CI/CD ([d9a489e](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/d9a489e88779b3a1a7ef4fb8e4a8b5d426eb2b71))
+
+
+### Features
+
+* Add support for annotations ([06cd886](https://github.com/piotrzaborow/notion-blocks-react-renderer/commit/06cd886896eef33ee55eac6af87424ac5944dbac))
+
 ## [1.3.13](https://github.com/piotrzaborow/notion-blocks-react-renderer/compare/v1.3.12...v1.3.13) (2022-12-19)
 
 
